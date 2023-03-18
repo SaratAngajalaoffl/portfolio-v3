@@ -90,16 +90,14 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className='flex w-full items-center justify-between'>
+            <div className='flex w-full items-end justify-between'>
               <Link href='/'>
-                <a>
                   <Image
                     src={NavLogo}
                     width='87'
-                    height='35'
+                    height='30'
                     alt='/'
                   />
-                </a>
               </Link>
               <div
                 onClick={handleNav}
@@ -153,7 +151,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/saratangajala/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -162,7 +160,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/SaratAngajalaoffl'
                   target='_blank'
                   rel='noreferrer'
                 >
