@@ -30,8 +30,8 @@ const Contact = () => {
                 <h2 className="py-2">Sarat Angajala</h2>
                 <p>Blockchain / Fullstack Developer</p>
                 <p className="py-4">
-                  I am available for freelance or part-time positions. Contact
-                  me and let&apos;s talk.
+                  I am actively looking for full-time roles. Contact me and
+                  let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -56,13 +56,11 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <Link href="/resume">
-                    <a>
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+                  <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

@@ -35,7 +35,7 @@ const About = () => {
           <p className="py-2 text-gray-600">
             My experience includes expertise in wallet technologies, L2
             cross-chain protocols, dynamic NFTs, and working with ERC20 tokens.
-            I have also worked with several A-list blockchain companies, helping
+            I have also contributed to several opensource blockchain projects, helping
             them with their Web3 requirements.
           </p>
           <p className="py-2 text-gray-600">
