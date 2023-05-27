@@ -8,7 +8,7 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+          <p className="uppercase text-xl tracking-widest text-[#C3688B]">
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
@@ -35,8 +35,8 @@ const About = () => {
           <p className="py-2 text-gray-600">
             My experience includes expertise in wallet technologies, L2
             cross-chain protocols, dynamic NFTs, and working with ERC20 tokens.
-            I have also contributed to several opensource blockchain projects, helping
-            them with their Web3 requirements.
+            I have also contributed to several opensource blockchain projects,
+            helping them with their Web3 requirements.
           </p>
           <p className="py-2 text-gray-600">
             Going forward, my aim is to continue developing my skills and

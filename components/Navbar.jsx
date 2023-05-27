@@ -44,23 +44,34 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#C3688B] hover:scale-110">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#C3688B] hover:scale-110">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#C3688B] hover:scale-110">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#C3688B] hover:scale-110">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <a href="/Resume.pdf">Resume</a>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#C3688B] hover:scale-110">
               <Link href="/#contact">Contact</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#C3688B] hover:scale-110">
+              <a
+                href="https://blogs.saratangajala.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Blog
+              </a>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#C3688B] hover:scale-110">
+              <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+                Resume
+              </a>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -141,7 +152,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#C3688B]">
                 Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
