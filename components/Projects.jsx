@@ -1,8 +1,8 @@
 import React from "react";
-import leditImg from "../public/assets/projects/ledit.png";
+import unmutexImage from "../public/assets/projects/unmutex.png";
+import haasylImg from "../public/assets/projects/haasyl.png";
 import wnwaImg from "../public/assets/projects/wnwa.png";
-import reentrancyImg from "../public/assets/projects/reentrancy.png";
-import javascriptImg from "../public/assets/projects/javascript.jpg";
+import augmintImg from "../public/assets/projects/augmint.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -10,33 +10,33 @@ const Projects = () => {
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#C3688B]">
-          Projects / Articles
+          Projects
         </p>
-        <h2 className="py-4">What I&apos;ve Built/Written</h2>
+        <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="L'edit"
-            backgroundImg={leditImg}
-            projectUrl="https://ledit-client.vercel.app"
-            tech="Next JS, Express"
+            title="Augmint"
+            backgroundImg={augmintImg}
+            projectUrl="/augmint"
+            tech="Crypto Wallet"
           />
           <ProjectItem
             title="WNWA NFT"
             backgroundImg={wnwaImg}
-            projectUrl="https://wnwa.io"
-            tech="NextJS, Solidity"
+            projectUrl="/wnwa"
+            tech="Dynamic NFTs"
           />
           <ProjectItem
-            title="Reentrancy Attack"
-            backgroundImg={reentrancyImg}
-            projectUrl="https://medium.com/@saratangajala/understanding-the-re-entrancy-attack-and-how-you-can-secure-your-contracts-from-it-1c89a7b0e31d"
-            tech="Solidity Theory"
+            title="Haasyl"
+            backgroundImg={haasylImg}
+            projectUrl="/haasyl"
+            tech="Fintech Application"
           />
           <ProjectItem
-            title="Asynchronous Computation"
-            backgroundImg={javascriptImg}
-            projectUrl="https://medium.com/@saratangajala/understanding-javascripts-runtime-ac339b33f9d5"
-            tech="Javascript"
+            title="Unmutex"
+            backgroundImg={unmutexImage}
+            projectUrl="/unmutex"
+            tech="A live event discovery platform"
           />
         </div>
       </div>
