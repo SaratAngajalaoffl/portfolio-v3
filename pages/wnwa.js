@@ -29,13 +29,13 @@ const unmutex = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            2493 Dynamic-NFT's that are official digital replica's of Diego
-            Maradona's "Goal of the Century" jersey, which was auctioned for
-            $9m. Each Dynamic NFT represents a tier, country and player from the
-            world cup, tracking their performance and memorialising the world
-            cup on chain. Additionally, these NFT's are founding membership
-            cards of We Never Walk Alone Football Nation, the world's first
-            Football Network State.
+            2493 Dynamic-NFT&apos;s that are official digital replica&apos;s of
+            Diego Maradona&apos;s &quot;Goal of the Century&quot; jersey, which
+            was auctioned for $9m. Each Dynamic NFT represents a tier, country
+            and player from the world cup, tracking their performance and
+            memorialising the world cup on chain. Additionally, these NFT&apos;s
+            are founding membership cards of We Never Walk Alone Football
+            Nation, the world&apos;s first Football Network State.
           </p>
           <a href="https://wnwa.io" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
